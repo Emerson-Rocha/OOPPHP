@@ -6,6 +6,10 @@
 
 
 class Pessoa{
+  
+
+}
+  
   /*
      Visibilidade
      - public - podem ser acessado de qualquer lugar
@@ -26,7 +30,21 @@ class Pessoa{
  private $bairro;
  private $estado;
   
-  //Método
+/*
+      Construtor
+      Um construtor permite inicializar as propriedades de um objeto em sua criação.
+  */
+  
+__construct($_nome, $_sexo, $_rg, $_cpf){
+$this->nome = $_nome;
+$this->seox = $_sexo;
+$this->rg = $_rg; 
+$this->cpf = $_cppf;  
+
+}
+
+
+//Método
   
   public function AtribuiName($x){
    $this->nome = $x;
